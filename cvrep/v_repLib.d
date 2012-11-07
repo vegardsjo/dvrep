@@ -991,7 +991,6 @@ void getVrepProcAddresses(void* lib)
   procBind!(lib, simSetObjectQuaternion);
   procBind!(lib, simRMLPosition);
   procBind!(lib, simRMLVelocity);
-
   procBind!(lib, simBuildMatrixQ);
   procBind!(lib, simGetQuaternionFromMatrix);
 }
